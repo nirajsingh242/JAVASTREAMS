@@ -16,7 +16,7 @@ public class FP03Excercise {
 		//Here BinaryOperator functional interface is used
 		BinaryOperator<Integer> IntegerSum = Integer::sum;
 		
-		
+		//implemention of Integer::sum similiar to below code
 		BinaryOperator<Integer> IntegerSum2 = new BinaryOperator<Integer> ()
 				{
 

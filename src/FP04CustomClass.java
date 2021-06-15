@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
-
+//@Data
 class Course {
 	private String name;
 	private String category;
